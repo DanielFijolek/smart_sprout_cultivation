@@ -1,0 +1,45 @@
+.text-value {
+  /* font-size: 32px;
+  letter-spacing: 0;
+  text-align: center; */
+}
+.text-name {
+  /* font-size: 16px;
+  fill: #7d8ead;
+  letter-spacing: 0;
+  text-align: center; */
+}
+.text-value1 {
+  /* font-size: 8px;
+  fill: #f31771;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600; */
+}
+.text-name1 {
+  /* font-size: 12px;
+  fill: #7d8ead;
+  letter-spacing: 0;
+  text-align: center; */
+}
+.text-value2 {
+  /* font-size: 12px;
+  fill: #2cabf7;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600; */
+}
+.text-name2 {
+  /* font-size: 12px;
+  fill: #7d8ead;
+  letter-spacing: 0;
+  text-align: center; */
+}
+
+.status-value {
+  /* font-size: 28px;
+  font-weight: bold; */
+}
+.status-name {
+  /* font-size: 16px; */
+}

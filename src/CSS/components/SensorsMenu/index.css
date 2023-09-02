@@ -1,0 +1,19 @@
+.Sensors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Sensors {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+  }
+}

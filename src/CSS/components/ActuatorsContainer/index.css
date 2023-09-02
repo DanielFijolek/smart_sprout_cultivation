@@ -1,0 +1,111 @@
+.ActuatorsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.Actuator {
+  width: 22%;
+  height: 200px;
+  background-color: rgb(41, 41, 41, 0.7);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: top;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.buttonContainer > button {
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin: 0;
+  background: none;
+  text-decoration: none;
+  box-shadow: none;
+  width: 40%;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.buttonContainer > button:hover {
+  background-color: rgb(97, 154, 239);
+}
+
+.buttonContainer > input {
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: center;
+}
+
+.buttonContainer > input::placeholder {
+  color: rgb(210, 210, 210);
+}
+
+.actuatorName {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.status {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+#ON {
+  color: rgb(0, 255, 0);
+}
+
+#OFF {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .ActuatorsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .Actuator {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(41, 41, 41, 0.7);
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

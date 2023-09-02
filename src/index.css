@@ -1,0 +1,43 @@
+@import "/src/CSS/components/Actuators/index.css";
+@import "/src/CSS/components/ActuatorsContainer/index.css";
+@import "/src/CSS/components/ActuatorsMenu/index.css";
+@import "/src/CSS/components/Chart/index.css";
+@import "/src/CSS/components/ElementContainer/index.css";
+@import "/src/CSS/components/ProgressBar/index.css";
+@import "/src/CSS/components/SensorsMenu/index.css";
+@import "/src/CSS/components/sesnorElement/index.css";
+
+html,
+body,
+#root {
+  color: rgb(239, 239, 239);
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(23, 32, 70);
+  /* background-image: linear-gradient(rgb(12, 16, 36), rgb(23, 32, 70)); */
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  html,
+  body,
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: null;
+  }
+}
